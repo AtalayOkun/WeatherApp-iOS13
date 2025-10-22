@@ -1,0 +1,15 @@
+# Ignore Secrets file
+Secrets.plist
+# Xcode
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+Clima.xcodeproj/xcuserdata/
+.DS_Store
+Clima.xcodeproj/xcuserdata/
+.DS_Store
+Clima.xcodeproj/xcuserdata/
+.DS_Store
+Clima.xcodeproj/xcuserdata/
+Clima/.DS_Store

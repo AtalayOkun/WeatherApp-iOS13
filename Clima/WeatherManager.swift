@@ -2,12 +2,12 @@
 //  WeatherManager.swift
 //  Clima
 //
-//  Created by Atakan Tul on 13.10.2025.
+//  Created by Atalay Okun on 13.10.2025.
 //  Copyright © 2025 App Brewery. All rights reserved.
 //
 
 import Foundation
-import CoreLocation // _LocationEssentials yerine bunu kullanman gerekir
+import CoreLocation
 
 protocol WeatherManagerDelegate {
     func didUpdateWeather(_ weatherManager: WeatherManager, weather: WeatherModel)
@@ -17,7 +17,6 @@ protocol WeatherManagerDelegate {
 struct WeatherManager {
     var delegate: WeatherManagerDelegate?
 
-    // Bu fonksiyon plist'ten API key'i okur
     private func getAPIKey() -> String {
         if let path = Bundle.main.path(forResource: "Secrets", ofType: "plist"),
            let dict = NSDictionary(contentsOfFile: path) as? [String: Any],

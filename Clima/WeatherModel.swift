@@ -2,7 +2,7 @@
 //  WeatherModel.swift
 //  Clima
 //
-//  Created by Atakan Tul on 18.10.2025.
+//  Created by Atalay Okun on 18.10.2025.
 //  Copyright © 2025 App Brewery. All rights reserved.
 //
 

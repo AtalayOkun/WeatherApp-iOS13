@@ -20,6 +20,9 @@
 		ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27B9231BBFB300365194 /* Assets.xcassets */; };
 		ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */; };
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
+		B17EBE422EA8C88500560C85 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = B17EBE412EA8C88500560C85 /* Secrets.plist */; };
+		B17EBE442EA8CBE200560C85 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B17EBE432EA8CBE200560C85 /* .gitignore */; };
+		B17EBE482EA8CCC500560C85 /* SecretsTemplate.plist in Resources */ = {isa = PBXBuildFile; fileRef = B17EBE472EA8CCC500560C85 /* SecretsTemplate.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		ADAA27BC231BBFB300365194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAA27BE231BBFB300365194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B17EBE412EA8C88500560C85 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		B17EBE432EA8CBE200560C85 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		B17EBE472EA8CCC500560C85 /* SecretsTemplate.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SecretsTemplate.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		ADAA27A4231BBFAF00365194 = {
 			isa = PBXGroup;
 			children = (
+				B17EBE432EA8CBE200560C85 /* .gitignore */,
 				12D9764D2EA503BC0056C2E0 /* cloudy_icon.gif */,
 				ADAA27CD231BC87F00365194 /* README.md */,
 				ADAA27AF231BBFAF00365194 /* Clima */,
@@ -81,6 +88,8 @@
 				127F47C62EA4E9320007942E /* png2pdf.pdf */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
+				B17EBE412EA8C88500560C85 /* Secrets.plist */,
+				B17EBE472EA8CCC500560C85 /* SecretsTemplate.plist */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -172,9 +181,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B17EBE442EA8CBE200560C85 /* .gitignore in Resources */,
 				ADAA27CE231BC87F00365194 /* README.md in Resources */,
 				12D9764E2EA503BC0056C2E0 /* cloudy_icon.gif in Resources */,
+				B17EBE422EA8C88500560C85 /* Secrets.plist in Resources */,
 				ADAA27BD231BBFB300365194 /* LaunchScreen.storyboard in Resources */,
+				B17EBE482EA8CCC500560C85 /* SecretsTemplate.plist in Resources */,
 				ADAA27BA231BBFB300365194 /* Assets.xcassets in Resources */,
 				127F47C72EA4E9320007942E /* png2pdf.pdf in Resources */,
 				ADAA27B8231BBFAF00365194 /* Main.storyboard in Resources */,
